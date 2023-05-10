@@ -10,7 +10,6 @@ on:
   push:
     branches: [dev]
 
-
 #A workflow job running sequentially
 jobs:
   build:
