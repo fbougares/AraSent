@@ -1,5 +1,3 @@
-import logging
-from fastapi import FastAPI
 from fastapi.testclient import TestClient
 from sources.datamodel.dialects import Dialects
 from main import app

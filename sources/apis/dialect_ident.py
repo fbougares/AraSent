@@ -5,8 +5,6 @@ output : detected dialect of the input text
 """
 
 import logging
-from typing import List
-from fastapi import HTTPException
 from fastapi import APIRouter, status
 from sources.datamodel.dialects import InputText, Dialects
 
