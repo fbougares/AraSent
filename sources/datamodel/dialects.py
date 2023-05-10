@@ -7,15 +7,15 @@ class InputText(BaseModel):
 
 
 class Dialects(str, Enum):
-    lyb = 'libyan'
-    tun = 'tunisian'
-    irq = 'iraqi'
-    ksa = 'saudi'
-    alg = 'algerian'
-    egy = 'egyptian'
-    leb = 'lebanon'
-    pal = 'palestinian'
-    syr = 'syrian'
+    libyan = 'libyan'
+    tunisian = 'tunisian'
+    iraqi = 'iraqi'
+    saudi = 'saudi'
+    algerian = 'algerian'
+    egyptian = 'egyptian'
+    lebanon = 'lebanon'
+    palestinian = 'palestinian'
+    syrian = 'syrian'
 
 
     
