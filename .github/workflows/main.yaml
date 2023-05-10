@@ -2,7 +2,6 @@
 #This workflow will install Python dependencies, lint using Black, run tests using Pytest 
 #and Deploy the FastAPI app to Heroku
 
-
 name: fastapi-github-actions-test
 
 on: 
